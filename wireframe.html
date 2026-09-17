@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FreshMart — Wireframe</title>
+  <link rel="stylesheet" href="wireframe.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">FreshMart</a>
+
+      <nav class="main-nav">
+        <a href="#categories">Categories</a>
+        <a href="#deals">Deals</a>
+        <a href="#products">Products</a>
+        <a href="#why-us">Why Us</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="search-bar">
+          <input type="text" placeholder="Search for products..." aria-label="Search products" />
+          <button type="button" aria-label="Search">Search</button>
+        </div>
+        <button type="button" class="icon-btn" aria-label="Account">Account</button>
+        <button type="button" class="icon-btn cart-btn" aria-label="Cart">
+          Cart <span class="cart-count">3</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">Farm Fresh · Delivered Daily</p>
+        <h1>Groceries you can trust, delivered to your door.</h1>
+        <p class="hero-sub">Shop fresh produce, pantry staples, and everyday essentials — all in one place, at prices that make sense.</p>
+        <div class="hero-cta">
+          <a href="#products" class="btn btn-primary">Shop Now</a>
+          <a href="#deals" class="btn btn-secondary">View Today's Deals</a>
+        </div>
+      </div>
+      <div class="hero-image placeholder" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <section class="promo-strip">
+    <div class="container promo-strip-inner">
+      <div class="promo-item">Free delivery on orders over $50</div>
+      <div class="promo-item">Same-day delivery available</div>
+      <div class="promo-item">Locally sourced produce</div>
+      <div class="promo-item">Easy returns, no questions asked</div>
+    </div>
+  </section>
+
+  <section id="categories" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Shop by Category</h2>
+        <p>Everything you need, neatly organized.</p>
+      </div>
+      <div class="category-grid">
+        <a href="#" class="category-card">
+          <span class="category-icon placeholder" aria-hidden="true"></span>
+          <span class="category-name">Fruits &amp; Vegetables</span>
+        </a>
+        <a href="#" class="category-card">
+          <span class="category-icon placeholder" aria-hidden="true"></span>
+          <span class="category-name">Meat &amp; Seafood</span>
+        </a>
+        <a href="#" class="category-card">
+          <span class="category-icon placeholder" aria-hidden="true"></span>
+          <span class="category-name">Dairy &amp; Eggs</span>
+        </a>
+        <a href="#" class="category-card">
+          <span class="category-icon placeholder" aria-hidden="true"></span>
+          <span class="category-name">Bakery</span>
+        </a>
+        <a href="#" class="category-card">
+          <span class="category-icon placeholder" aria-hidden="true"></span>
+          <span class="category-name">Frozen Foods</span>
+        </a>
+        <a href="#" class="category-card">
+          <span class="category-icon placeholder" aria-hidden="true"></span>
+          <span class="category-name">Pantry Staples</span>
+        </a>
+        <a href="#" class="category-card">
+          <span class="category-icon placeholder" aria-hidden="true"></span>
+          <span class="category-name">Beverages</span>
+        </a>
+        <a href="#" class="category-card">
+          <span class="category-icon placeholder" aria-hidden="true"></span>
+          <span class="category-name">Household</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="deals" class="section section-muted">
+    <div class="container">
+      <div class="section-header">
+        <h2>Today's Deals</h2>
+        <p>Fresh savings, updated daily.</p>
+      </div>
+      <div class="deal-banner">
+        <div class="deal-text">
+          <p class="deal-tag">Weekly Special</p>
+          <h3>20% off all organic produce</h3>
+          <p>This week only. Stock up on farm-fresh organic fruits and vegetables.</p>
+          <a href="#" class="btn btn-primary">Shop the Sale</a>
+        </div>
+        <div class="deal-image placeholder" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="products" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Popular Products</h2>
+        <p>Customer favorites, restocked every week.</p>
+      </div>
+      <div class="product-grid">
+
+        <article class="product-card">
+          <div class="product-badge">Sale</div>
+          <div class="product-image placeholder" aria-hidden="true"></div>
+          <h3 class="product-name">Fresh Strawberries</h3>
+          <p class="product-unit">1 lb box</p>
+          <div class="product-price">
+            <span class="price-current">$3.99</span>
+            <span class="price-old">$4.99</span>
+          </div>
+          <button type="button" class="btn btn-add">Add to Cart</button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image placeholder" aria-hidden="true"></div>
+          <h3 class="product-name">Organic Avocados</h3>
+          <p class="product-unit">Each</p>
+          <div class="product-price">
+            <span class="price-current">$1.49</span>
+          </div>
+          <button type="button" class="btn btn-add">Add to Cart</button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image placeholder" aria-hidden="true"></div>
+          <h3 class="product-name">Whole Milk</h3>
+          <p class="product-unit">1 gallon</p>
+          <div class="product-price">
+            <span class="price-current">$3.29</span>
+          </div>
+          <button type="button" class="btn btn-add">Add to Cart</button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-badge">New</div>
+          <div class="product-image placeholder" aria-hidden="true"></div>
+          <h3 class="product-name">Sourdough Bread</h3>
+          <p class="product-unit">Loaf</p>
+          <div class="product-price">
+            <span class="price-current">$4.49</span>
+          </div>
+          <button type="button" class="btn btn-add">Add to Cart</button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image placeholder" aria-hidden="true"></div>
+          <h3 class="product-name">Free-Range Chicken Breast</h3>
+          <p class="product-unit">1 lb</p>
+          <div class="product-price">
+            <span class="price-current">$6.99</span>
+          </div>
+          <button type="button" class="btn btn-add">Add to Cart</button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-badge">Sale</div>
+          <div class="product-image placeholder" aria-hidden="true"></div>
+          <h3 class="product-name">Cheddar Cheese Block</h3>
+          <p class="product-unit">8 oz</p>
+          <div class="product-price">
+            <span class="price-current">$3.79</span>
+            <span class="price-old">$4.49</span>
+          </div>
+          <button type="button" class="btn btn-add">Add to Cart</button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image placeholder" aria-hidden="true"></div>
+          <h3 class="product-name">Vine Tomatoes</h3>
+          <p class="product-unit">1 lb</p>
+          <div class="product-price">
+            <span class="price-current">$2.29</span>
+          </div>
+          <button type="button" class="btn btn-add">Add to Cart</button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image placeholder" aria-hidden="true"></div>
+          <h3 class="product-name">Free-Range Eggs</h3>
+          <p class="product-unit">Dozen</p>
+          <div class="product-price">
+            <span class="price-current">$4.19</span>
+          </div>
+          <button type="button" class="btn btn-add">Add to Cart</button>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="why-us" class="section section-muted">
+    <div class="container">
+      <div class="section-header">
+        <h2>Why Shop With FreshMart</h2>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <span class="feature-icon placeholder" aria-hidden="true"></span>
+          <h3>Farm-Fresh Quality</h3>
+          <p>We partner with local farms to bring you the freshest produce, picked at peak ripeness.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon placeholder" aria-hidden="true"></span>
+          <h3>Everyday Low Prices</h3>
+          <p>Quality groceries shouldn't break the bank. We keep our prices fair, every single day.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon placeholder" aria-hidden="true"></span>
+          <h3>Fast, Reliable Delivery</h3>
+          <p>Order online and get your groceries delivered same-day, right to your doorstep.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon placeholder" aria-hidden="true"></span>
+          <h3>Quality Guaranteed</h3>
+          <p>Not satisfied with an item? We'll replace it or refund you, no questions asked.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <div class="container newsletter-inner">
+      <h2>Get weekly deals in your inbox</h2>
+      <p>Sign up and save on your first order.</p>
+      <form class="newsletter-form" onsubmit="return false;">
+        <input type="email" placeholder="Enter your email" aria-label="Email address" required />
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <a href="#" class="logo">FreshMart</a>
+        <p>Fresh groceries, delivered with care.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <a href="#categories">Categories</a>
+        <a href="#deals">Deals</a>
+        <a href="#products">Products</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <a href="#">Help Center</a>
+        <a href="#">Delivery Info</a>
+        <a href="#">Returns</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 FreshMart. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
